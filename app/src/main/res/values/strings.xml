@@ -13,4 +13,7 @@
     <string name="embarazo">Embarazo</string>
     <string name="logo">logo</string>
     <string name="dropdown">DropDown</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="flecha">flecha</string>
 </resources>

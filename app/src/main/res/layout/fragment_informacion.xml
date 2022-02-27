@@ -2,28 +2,19 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FirstFragment">
-
-    <Button
-        android:id="@+id/button_first"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/next"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+    tools:context=".Informacion" >
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="88dp"
-        android:layout_height="86dp"
-        android:layout_marginTop="16dp"
+        android:id="@+id/logo"
+        android:layout_width="89dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="56dp"
         android:contentDescription="@string/logo"
-        android:src="@mipmap/Logo_EduSex"
+        android:src="@mipmap/logo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -31,34 +22,33 @@
         android:id="@+id/textView"
         android:layout_width="229dp"
         android:layout_height="103dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="68dp"
         android:text="@string/necesitas_informaci_n"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
 
     <LinearLayout
         android:layout_width="316dp"
         android:layout_height="40dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="88dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView">
 
         <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="wrap_content"
+            android:id="@+id/flecha"
+            android:layout_width="73dp"
             android:layout_height="wrap_content"
             android:layout_weight="0"
-            android:contentDescription="@string/dropdown"
-            android:rotation="90"
-            android:src="@mipmap/Flecha" />
+            android:contentDescription="@string/flecha"
+            android:src="@mipmap/flecha" />
 
         <TextView
             android:id="@+id/textView3"
@@ -70,6 +60,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="34sp"
             android:textStyle="bold" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
