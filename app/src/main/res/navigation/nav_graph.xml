@@ -39,10 +39,19 @@
         <action
             android:id="@+id/action_mainmenu_to_dudas"
             app:destination="@id/dudas" />
+        <action
+            android:id="@+id/action_mainmenu_to_pago"
+            app:destination="@id/pago" />
     </fragment>
     <fragment
         android:id="@+id/info2"
         android:name="com.example.proyecto.info"
         android:label="fragment_info"
         tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/pago"
+        android:name="com.example.proyecto.pago_informacion"
+        android:label="fragment_pago_informacion"
+        tools:layout="@layout/fragment_pago_informacion" />
+
 </navigation>
