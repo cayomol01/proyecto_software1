@@ -10,7 +10,8 @@ class infoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         this.supportActionBar?.hide()
-        setContentView(R.layout.fragment_genero)
+        setContentView(R.layout.fragment_dudas)
+
 
     }
 }
