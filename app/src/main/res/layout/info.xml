@@ -25,25 +25,27 @@
             android:layout_marginRight="16dp" />
 
         <TextView
+            android:id="@+id/item_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/item_image"
+            android:fontFamily="sans-serif-medium"
             android:text="Cordelia"
             android:textColor="@color/white"
-            android:id="@+id/item_title"
-            android:textStyle="bold"
-            android:layout_toEndOf="@+id/item_image"
-            android:layout_alignParentTop="true"
-            android:textSize="30sp"/>
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/item_detal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/item_title"
+            android:layout_toEndOf="@+id/item_image"
+            android:fontFamily="sans-serif-medium"
             android:text="Detalles"
             android:textColor="@color/white"
-            android:id="@+id/item_detal"
-            android:textStyle="bold"
-            android:layout_toEndOf="@+id/item_image"
-            android:layout_below="@+id/item_title"/>
+            android:textStyle="bold" />
 
 
     </RelativeLayout>

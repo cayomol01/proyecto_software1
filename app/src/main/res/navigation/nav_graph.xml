@@ -14,17 +14,32 @@
         android:id="@+id/inicio"
         android:name="com.example.proyecto.inicio"
         android:label="fragment_inicio"
-        tools:layout="@layout/fragment_inicio" />
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_inicio_to_genero"
+            app:destination="@id/genero" />
+    </fragment>
     <fragment
         android:id="@+id/genero"
         android:name="com.example.proyecto.genero"
         android:label="fragment_genero"
-        tools:layout="@layout/fragment_genero" />
+        tools:layout="@layout/fragment_genero" >
+        <action
+            android:id="@+id/action_genero_to_mainmenu"
+            app:destination="@id/mainmenu" />
+    </fragment>
     <fragment
         android:id="@+id/mainmenu"
         android:name="com.example.proyecto.mainmenu"
         android:label="fragment_mainmenu"
-        tools:layout="@layout/fragment_mainmenu" />
+        tools:layout="@layout/fragment_mainmenu" >
+        <action
+            android:id="@+id/action_mainmenu_to_info2"
+            app:destination="@id/info2" />
+        <action
+            android:id="@+id/action_mainmenu_to_dudas"
+            app:destination="@id/dudas" />
+    </fragment>
     <fragment
         android:id="@+id/info2"
         android:name="com.example.proyecto.info"
