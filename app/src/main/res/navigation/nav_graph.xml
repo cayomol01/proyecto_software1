@@ -2,14 +2,14 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/nav_graph"
+    android:id="@+id/informacion"
     app:startDestination="@id/FirstFragment">
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="com.example.proyecto.FirstFragment"
+        android:name="com.example.proyecto.Informacion"
         android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
+        tools:layout="@layout/fragment_informacion">
 
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
