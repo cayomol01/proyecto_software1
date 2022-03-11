@@ -6,6 +6,6 @@ import android.os.Bundle
 class dudas_activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_dudas)
+        setContentView(R.layout.fragment_dudas)
     }
 }

@@ -16,7 +16,7 @@
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".MainActivity_dudas"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Proyecto.NoActionBar">

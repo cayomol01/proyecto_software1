@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/estef/OneDrive/Escritorio/Soft/app/src/main/res/layout/activity_dudas.xml" value="0.2" />
+        <entry key="..\:/Users/estef/OneDrive/Escritorio/Soft/app/src/main/res/layout/activity_dudas.xml" value="0.16" />
         <entry key="..\:/Users/estef/OneDrive/Escritorio/Soft/app/src/main/res/layout/activity_main.xml" value="0.11302083333333333" />
         <entry key="..\:/Users/estef/OneDrive/Escritorio/Soft/app/src/main/res/layout/activity_main2.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/estef/OneDrive/Escritorio/Soft/app/src/main/res/layout/content_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/estef/OneDrive/Escritorio/Soft/app/src/main/res/layout/fragment_dudas.xml" value="0.264" />
         <entry key="..\:/Users/estef/OneDrive/Escritorio/Soft/app/src/main/res/menu/menu_main.xml" value="0.16799999999999998" />
       </map>
     </option>
