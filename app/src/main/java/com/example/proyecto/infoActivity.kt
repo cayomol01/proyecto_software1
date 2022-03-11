@@ -10,12 +10,7 @@ class infoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         this.supportActionBar?.hide()
-        setContentView(R.layout.informacion)
+        setContentView(R.layout.fragment_inicio)
 
-        val recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
-        val adapter = CustomAdapter()
-
-        recyclerView.layoutManager = LinearLayoutManager(this)
-        recyclerView.adapter = adapter
     }
 }

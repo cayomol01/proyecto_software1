@@ -15,7 +15,7 @@ class MainActivity_dudas : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.fragment_dudas)
+        setContentView(R.layout.fragment_inicio)
 
 
     }
