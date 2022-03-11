@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FirstFragment">
+    tools:context=".infoActivity">
 
+<<<<<<< HEAD:app/src/main/res/layout/fragment_first.xml
     <ImageView
         android:id="@+id/logo"
         android:layout_width="89dp"
@@ -13,18 +14,29 @@
         android:layout_marginTop="64dp"
         android:src="@mipmap/logo"
         android:contentDescription="@string/logo"
+=======
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="¿Necesitas Información?"
+        android:textSize="30sp"
+        android:textStyle="bold"
+>>>>>>> 012a57a107ba40293c1b6c84713fd380bd4f38dc:app/src/main/res/layout/informacion.xml
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button_first"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/next"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+<<<<<<< HEAD:app/src/main/res/layout/fragment_first.xml
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -69,5 +81,10 @@
             android:textSize="34sp"
             android:textStyle="bold" />
     </LinearLayout>
+=======
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"/>
+>>>>>>> 012a57a107ba40293c1b6c84713fd380bd4f38dc:app/src/main/res/layout/informacion.xml
 
 </androidx.constraintlayout.widget.ConstraintLayout>
