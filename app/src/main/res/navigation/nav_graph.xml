@@ -3,26 +3,46 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/inicio">
 
     <fragment
-        android:id="@+id/FirstFragment"
-        android:name="com.example.proyecto.FirstFragment"
-        android:label="@string/first_fragment_label"
-        tools:layout="@layout/inicio">
-
+        android:id="@+id/dudas"
+        android:name="com.example.proyecto.dudas"
+        android:label="fragment_dudas"
+        tools:layout="@layout/fragment_dudas" />
+    <fragment
+        android:id="@+id/inicio"
+        android:name="com.example.proyecto.inicio"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" >
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            android:id="@+id/action_inicio_to_genero"
+            app:destination="@id/genero" />
     </fragment>
     <fragment
-        android:id="@+id/SecondFragment"
-        android:name="com.example.proyecto.SecondFragment"
-        android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
-
+        android:id="@+id/genero"
+        android:name="com.example.proyecto.genero"
+        android:label="fragment_genero"
+        tools:layout="@layout/fragment_genero" >
         <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            android:id="@+id/action_genero_to_mainmenu"
+            app:destination="@id/mainmenu" />
     </fragment>
+    <fragment
+        android:id="@+id/mainmenu"
+        android:name="com.example.proyecto.mainmenu"
+        android:label="fragment_mainmenu"
+        tools:layout="@layout/fragment_mainmenu" >
+        <action
+            android:id="@+id/action_mainmenu_to_info2"
+            app:destination="@id/info2" />
+        <action
+            android:id="@+id/action_mainmenu_to_dudas"
+            app:destination="@id/dudas" />
+    </fragment>
+    <fragment
+        android:id="@+id/info2"
+        android:name="com.example.proyecto.info"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
 </navigation>

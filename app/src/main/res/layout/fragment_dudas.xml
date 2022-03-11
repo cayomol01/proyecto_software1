@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dudas">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="134dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="#E8ADC1"
+        android:backgroundTintMode="add"
+        android:src="@drawable/ic_imagen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="440dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Cuentanos..."
+        android:textColorHint="#101010"
+        android:textSize="34sp"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="285dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#E8ADC1"
+        android:backgroundTintMode="add"
+        android:fontFamily="sans-serif-medium"
+        android:text="Dudas frecuentes "
+        android:textColor="#FFFFFF"
+        android:textColorLink="#E8ADC1"
+        app:cornerRadius="100px"
+        app:iconTint="#E8ADC1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:rippleColor="#E8ADC1"
+        app:strokeColor="#E8ADC1" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="287dp"
+        android:layout_height="101dp"
+        android:layout_marginBottom="44dp"
+        android:backgroundTint="#E8ADC1"
+        android:backgroundTintMode="add"
+        android:text="Consultar dudas especificas "
+        android:textColor="#FFFFFF"
+        android:textColorLink="#E8ADC1"
+        app:cornerRadius="100px"
+        app:iconTint="#E8ADC1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.113"
+        app:rippleColor="#E8ADC1"
+        app:strokeColor="#E8ADC1" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="¿Cuáles  son tus dudas?"
+        android:textAlignment="gravity"
+        android:textSize="28sp"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.034" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
