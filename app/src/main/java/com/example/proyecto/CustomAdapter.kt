@@ -10,14 +10,14 @@ import androidx.recyclerview.widget.RecyclerView
 class CustomAdapter: RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
 
     val titles = arrayOf("Embarazo",
-        "Prueba",
-        "Videos",
-        "YouTube")
+        "Enfermedades de transmisión sexual",
+        "Anticonceptivos",
+        "Cáncer de órganos reproductivos")
 
-    val details = arrayOf ("No sé qué poner",
-        "Suscribete",
-        "Videos",
-        "YouTube")
+    val details = arrayOf ("Es muy común que...",
+        "Con respecto a las enferme...",
+        "Existen diferentes métod...",
+        "Los órganos reproductivos...")
 
     val images = intArrayOf(R.drawable.ic_launcher_foreground,
                             R.drawable.ic_launcher_foreground,
@@ -32,7 +32,7 @@ class CustomAdapter: RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
 
     override fun onBindViewHolder(viewHolder: ViewHolder, i: Int) {
         viewHolder.itemTitle.text = titles[i]
-        viewHolder.itemTitle.text = details[i]
+        viewHolder.itemDetail.text = details[i]
         viewHolder.itemImage.setImageResource(images[i])
     }
 
