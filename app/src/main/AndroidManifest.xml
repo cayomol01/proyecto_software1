@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Proyecto">
         <activity
+            android:name=".AnilloActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InyeccionAnticonceptiva"
+            android:exported="false" />
+        <activity
+            android:name=".DiagrafmaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CondonActivity"
+            android:exported="false" />
+        <activity
             android:name=".infoActivity"
             android:exported="true"
             android:label="@string/app_name"
@@ -20,6 +32,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

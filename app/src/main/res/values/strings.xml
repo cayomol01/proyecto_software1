@@ -9,4 +9,73 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="pastillasText">
+        \n\nLas pastillas anticonceptivas poseen un 99% de efectividad si es que la persona que las consume, las consume de una manera correcta. Al decir de una "manera correcta", se refiere a tomárselas en un horario establecido y sin faltas. Si en dado caso, la persona no las consume de una forma regular, pueden ser 91% efectivas. Estas pastillas contienen hormonas capaces de poder detener el ciclo de ovulación, por lo tanto, el espermatozoide no es capaz de entrar al óvulo.
+        \n\nEfectos secundarios:
+                Náuseas, dolores de cabeza, ciclo menstrual irregular, sensibilidad en glándulas mamarias.
+            <li>
+            </li>
+            <li>
+            </li>
+            <li>
+            </li>
+
+        <b>\n\nEs importante recalcar que las pastillas anticonceptivas no previenen enfermedades de transmisión sexual.</b>
+        \n\n(Planned Parenthood, 2022)
+    </string>
+    <string name="condonText">
+        \n\nLos condones poseen un 98% de efectividad si es que las personas lo usan de manera correcta. Al decir de una "manera correcta", se refiere a usarlo de principio a fin durante las relaciones sexuales. Existen posibilidades en donde este se pueda llegar a romper, entonces pueden llegar a ser solamente 85% efectivos. Los condones se colocan en el pene  y son capaces de retener el esperma al momento de la eyaculación, haciendo así que este no tenga acceso a la vagina.
+        \n\nLos condones no poseen efectos secundarios.
+            <li>
+            </li>
+            <li>
+            </li>
+            <li>
+            </li>
+
+        <b>\n\nLos condones son ideales para evitar el embarazo y la transmisión de enfermedades sexuales.</b>
+        \n\n(Planned Parenthood, 2022)
+    </string>
+    <string name="diafragmaText">
+        \n\nEl diafragma posee un 94% de efectividad si es que las personas lo usan de manera correcta. Al decir de una "manera correcta", se refiere a usarlo de principio a fin durante las relaciones sexuales, entonces puede llegar a ser solamente 88% efectivo. Se hace un mejor uso del diagrama si se le aplica espermicida. Por otra parte, hay que asegurarse que este cubra todo el cuello uterino, introduciéndolo con la copa para abajo. Cuando este se retira, se introducen los dedos dentro de la vagina para buscar el anillo que trae el diafragma y así poder tirar de él suavemente.
+        \n\nEfectos secundarios:
+                Infecciones urinarias si se utiliza de forma continua. Además si se hace uso de espermicida, se puede tener irritación o inluso llegar a tener VIH a causa de esta irritación.
+            <li>
+            </li>
+            <li>
+            </li>
+            <li>
+            </li>
+
+        <b>\n\nEs importante recalcar que el diafragma no previene enfermedades de transmisión sexual.</b>
+        \n\n(Planned Parenthood, 2022)
+    </string>
+    <string name="inyeccionText">
+        \n\nLa inyección anticonceptiva posee un 99% de efectividad. Esta inyección se coloca en un tiempo estimado de 3 meses, por lo que se tiene que tener un control para evitar retrasos al momento de colocarla. Por otra parte, esta inyección también contiene una hormona encargada de prevenir el ciclo de ovuluación, haciendo así que se evite que el espermatozoide pueda ingresar al óvulo.
+        \n\nEfectos secundarios:
+                Náuseas, aumento de peso, ciclo menstrual irregular, sensibilidad en las glándulas mamarias.
+            <li>
+            </li>
+            <li>
+            </li>
+            <li>
+            </li>
+
+        <b>\n\nEs importante recalcar que la inyección anticonceptiva no previene enfermedades de transmisión sexual.</b>
+        \n\n(Planned Parenthood, 2022)
+    </string>
+    <string name="anilloText">
+        \n\nLa inyección anticonceptiva posee un 99% de efectividad. Esta inyección se coloca en un tiempo estimado de 3 meses, por lo que se tiene que tener un control para evitar retrasos al momento de colocarla. Por otra parte, esta inyección también contiene una hormona encargada de prevenir el ciclo de ovuluación, haciendo así que se evite que el espermatozoide pueda ingresar al óvulo.
+        \n\nEfectos secundarios:
+                Náuseas, aumento de peso, ciclo menstrual irregular, sensibilidad en las glándulas mamarias.
+            <li>
+            </li>
+            <li>
+            </li>
+            <li>
+            </li>
+
+        <b>\n\nEs importante recalcar que la inyección anticonceptiva no previene enfermedades de transmisión sexual.</b>
+        \n\n(Planned Parenthood, 2022)
+    </string>
 </resources>

@@ -1,15 +1,29 @@
 package com.example.proyecto
 
+import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 
 class PreserAdapter: RecyclerView.Adapter<PreserAdapter.ViewHolder>() {
 
-    val titles = arrayOf("Pastilla Anticonceptiva",
+    private lateinit var mlistener: onItemClicklistener
+
+    interface onItemClicklistener {
+        fun onItemClick(position: Int)
+    }
+
+    fun setOnItemClicklistener(listener: onItemClicklistener) {
+        mlistener = listener
+    }
+
+    val titles = arrayOf(
+        "Pastilla Anticonceptiva",
         "Condón",
         "Diafragma",
         "Inyección Anticonceptiva",
@@ -18,9 +32,11 @@ class PreserAdapter: RecyclerView.Adapter<PreserAdapter.ViewHolder>() {
         "Condón Interno",
         "Esponja Anticonceptiva",
         "Capuchón Cervical",
-        "Espermicida y Gel")
+        "Espermicida y Gel"
+    )
 
-    val details = arrayOf ("Efectividad: 91%",
+    val details = arrayOf(
+        "Efectividad: 91%",
         "Efectividad: 85%",
         "Efectividad: 88%",
         "Efectividad: 94%",
@@ -29,9 +45,11 @@ class PreserAdapter: RecyclerView.Adapter<PreserAdapter.ViewHolder>() {
         "Efectividad: 85%",
         "Efectividad: 76% a 88%",
         "Efectividad: 71% a 86%",
-        "Efectividad: 71% a 86%")
+        "Efectividad: 71% a 86%"
+    )
 
-    val images = intArrayOf(R.mipmap.pastillas,
+    val images = intArrayOf(
+        R.mipmap.pastillas,
         R.mipmap.condon,
         R.mipmap.diafragma,
         R.mipmap.inyeccion,
@@ -40,12 +58,13 @@ class PreserAdapter: RecyclerView.Adapter<PreserAdapter.ViewHolder>() {
         R.mipmap.cinterno,
         R.mipmap.esponja,
         R.mipmap.capuchon,
-        R.mipmap.espermicida)
+        R.mipmap.espermicida
+    )
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, i: Int): ViewHolder {
         val v = LayoutInflater.from(viewGroup.context)
             .inflate(R.layout.preser, viewGroup, false)
-        return ViewHolder(v)
+        return ViewHolder(v, mlistener)
     }
 
     override fun onBindViewHolder(viewHolder: ViewHolder, i: Int) {
@@ -58,7 +77,8 @@ class PreserAdapter: RecyclerView.Adapter<PreserAdapter.ViewHolder>() {
         return titles.size
     }
 
-    inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+    inner class ViewHolder(itemView: View, listener: onItemClicklistener) :
+        RecyclerView.ViewHolder(itemView) {
         var itemImage: ImageView
         var itemTitle: TextView
         var itemDetail: TextView
@@ -67,6 +87,9 @@ class PreserAdapter: RecyclerView.Adapter<PreserAdapter.ViewHolder>() {
             itemImage = itemView.findViewById(R.id.item_imagePreser)
             itemTitle = itemView.findViewById(R.id.item_titlePreser)
             itemDetail = itemView.findViewById(R.id.item_detalPreser)
+            itemView.setOnClickListener {
+                listener.onItemClick(bindingAdapterPosition)
+            }
         }
     }
 }

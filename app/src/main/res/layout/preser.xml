@@ -25,15 +25,15 @@
             android:layout_marginRight="16dp" />
 
         <TextView
+            android:id="@+id/item_titlePreser"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cordelia"
-            android:textColor="@color/white"
-            android:id="@+id/item_titlePreser"
-            android:textStyle="bold"
-            android:layout_toEndOf="@+id/item_imagePreser"
             android:layout_alignParentTop="true"
-            android:textSize="30sp"/>
+            android:layout_toEndOf="@+id/item_imagePreser"
+            android:text="Anti"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
