@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Proyecto">
         <activity
+            android:name=".EspermicidaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CapuchonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EsponjaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CondonIActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ParcheActivity"
+            android:exported="false" />
+        <activity
             android:name=".AnilloActivity"
             android:exported="false" />
         <activity

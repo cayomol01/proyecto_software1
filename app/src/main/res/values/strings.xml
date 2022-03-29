@@ -65,9 +65,9 @@
         \n\n(Planned Parenthood, 2022)
     </string>
     <string name="anilloText">
-        \n\nLa inyección anticonceptiva posee un 99% de efectividad. Esta inyección se coloca en un tiempo estimado de 3 meses, por lo que se tiene que tener un control para evitar retrasos al momento de colocarla. Por otra parte, esta inyección también contiene una hormona encargada de prevenir el ciclo de ovuluación, haciendo así que se evite que el espermatozoide pueda ingresar al óvulo.
+        \n\nLos anillos anticonceptivos poseen un 99% de efectividad si es que la persona lo usa de manera correcta. Al decir de una "manera correcta", se refiere a ponerlo de forma correcta en la vagina. Si en dado caso, la persona no lo hace, pueden ser 91% efectivos. El anillo vaginal se puede utilizar 24/7 y este es capaz de liberar hormonas haciendo que la mujer sea incapaz de quedar embarazada.
         \n\nEfectos secundarios:
-                Náuseas, aumento de peso, ciclo menstrual irregular, sensibilidad en las glándulas mamarias.
+                Náuseas, dolores de cabeza, ciclo menstrual irregular, sensibilidad en las glándulas mamarias.
             <li>
             </li>
             <li>
@@ -75,7 +75,76 @@
             <li>
             </li>
 
-        <b>\n\nEs importante recalcar que la inyección anticonceptiva no previene enfermedades de transmisión sexual.</b>
+        <b>\n\nEs importante recalcar que el anillo vaginal no previene enfermedades de transmisión sexual.</b>
+        \n\n(Planned Parenthood, 2022)
+    </string>
+    <string name="parcheText">
+        \n\nLos parches anticopcentivos poseen un 99% de efectividad si es que la persona lo usa de manera correcta. Al decir de una "manera correcta", se refiere a asegurarse de pegarlo bien en la piel y tratar de no tocarlo mucho ya que es bastante sensible con el pegamento que este contiene. Si en dado caso, la persona no lo hace, pueden ser 91% efectivos. El parche anticonceptivo contiene progestina y estrógeno las cuales se encargan de que no ocurra una ovulación. Por otra parte, el cuello uterino produce una especie de moco el cuál se vuelve espeso haciendo así que este no permita la entrada del espermatozoide.
+        \n\nEfectos secundarios:
+                Náuseas, dolores de cabeza, ciclo menstrual irregular, sensibilidad en las glándulas mamarias.
+            <li>
+            </li>
+            <li>
+            </li>
+            <li>
+            </li>
+
+        <b>\n\nEs importante recalcar que el parche anticonceptivo no previene enfermedades de transmisión sexual.</b>
+        \n\n(Planned Parenthood, 2022)
+    </string>
+    <string name="condoniText">
+        \n\nLos condones internos poseen un 79% de efectividad. Si se usa de una manera correcta, ya sea usánsolo durando todo el acto sexual y colocándolo de una forma correcta, ya sea en la vagina o en el ano puede llegar a ser bastante efectivo.
+        \n\nLos condones internos no poseen efectos secundarios.
+            <li>
+            </li>
+            <li>
+            </li>
+            <li>
+            </li>
+
+        <b>\n\nLos condones internos son ideales para evitar el embarazo y la transmisión de enfermedades sexuales..</b>
+        \n\n(Planned Parenthood, 2022)
+    </string>
+    <string name="esponjaText">
+        \n\nLa esponja anticonceptiva tiene una efectividad bastante alta si se usa de forma correcta. Aunque en este caso, existen dos posibles tipos de efectividad, una para mujeres que han dado a luz y otra para las mujeres que aún no han dado a luz. En dado caso, una mujer ya dio a luz su efectividad es del 76% mientras que la efectividad para una mujer que nunca ha dado a luz es del 88%. Esta esponja se coloca en el cuello uterino de la vagina y a veces puede contener espermicidas.
+        \n\nEfectos secundarios:
+                Síndrome de Shock Tóxico (infecciones bacterianas). Además si se hace uso de espermicida, se puede tener irritación o inluso llegar a tener VIH a causa de esta irritación.
+            <li>
+            </li>
+            <li>
+            </li>
+            <li>
+            </li>
+
+        <b>\n\nLas esponjas anticonceptivas por sí solas no son capaces de prevenir enfermedades de transmisión sexual. Sin embargo, si se usa junto con un condón, este puede ayudar a prevenirlas.</b>
+        \n\n(Planned Parenthood, 2022)
+    </string>
+    <string name="capuchonText">
+        \n\nPara el capuchón cervial existen dos posibles tipos de efectividad, una para mujeres que han dado a luz y otra para las mujeres que aún no han dado a luz. En dado caso, una mujer ya dio a luz su efectividad es del 71% mientras que la efectividad para una mujer que nunca ha dado a luz es del 86%. Este capuchón se asemeja a una copa menstrual, el cuál se introduce por la vagina previniendo que el espermatozoide sea capaz de llegar al óvulo. Por otra parte, también se puede hacer uso de un espermicida para mejorar su efectividad.
+        \n\nEfectos secundarios:
+                Irritación vaginal. Además si se hace uso de espermicida, se puede llegar a tener VIH a causa de esta irritación.
+            <li>
+            </li>
+            <li>
+            </li>
+            <li>
+            </li>
+
+        <b>\n\nEs importante recalcar que el capuchón cervical no previene enfermedades de transmisión sexual.</b>
+        \n\n(Planned Parenthood, 2022)
+    </string>
+    <string name="espermicidaText">
+        \n\nEl espermicida y gel posee un 72% de efectividad. Este método anticonceptivo es mejor si se utiliza con otro método anticonceptivo para tener una mayor seguridad en evitar un embarazo. Este se puede colocar dentro de la vagina o de algún método anticonceptivo y así evita la entrada de espermatozoides al óvulo.
+        \n\nEfectos secundarios:
+                Irritación vaginal. Además se puede llegar a tener VIH a causa de esta irritación.
+            <li>
+            </li>
+            <li>
+            </li>
+            <li>
+            </li>
+
+        <b>\n\nEs importante recalcar que el espermicida y gel no previene enfermedades de transmisión sexual.</b>
         \n\n(Planned Parenthood, 2022)
     </string>
 </resources>

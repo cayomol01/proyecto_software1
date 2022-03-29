@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:text="Anillo Vaginal"
+        android:text="Espermicida y Gel"
         android:textAlignment="center"
         android:textColor="#0B0A0A"
         android:textSize="30sp"
@@ -89,7 +89,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/anillo"
+        app:srcCompat="@drawable/espermicida"
         tools:src="@mipmap/pastillas" />
 
     <ScrollView
@@ -111,7 +111,7 @@
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/anilloText"
+                android:text="@string/espermicidaText"
                 android:textColor="#040303"
                 android:textSize="16sp" />
         </LinearLayout>

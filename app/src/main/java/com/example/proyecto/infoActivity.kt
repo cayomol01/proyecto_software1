@@ -13,6 +13,6 @@ class infoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         this.supportActionBar?.hide()
-        setContentView(R.layout.pastillas)
+        setContentView(R.layout.espermicida)
     }
 }
