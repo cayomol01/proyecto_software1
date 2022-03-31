@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GuiaConsentimiento">
+
+    <ScrollView
+        android:id="@+id/svconsent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/IVConsent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@android:mipmap/sym_def_app_icon" />
+
+            <TextView
+                android:id="@+id/ConsentimientoTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20sp"
+                android:text="Consentimiento"
+                android:textAlignment="center"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/InfoConsent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30sp"
+                android:justificationMode="inter_word"
+                android:text="El consentimiento es el permiso que una persona da para que se realice una acción. En el contexto de desarrollo personal de una persona, lo que se entiende como consentimiento es el permiso que una persona da para que se realice una acción que involucre su cuerpo o su bienestar."
+                android:textAlignment="textStart"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/infoConsent2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30sp"
+                android:justificationMode="inter_word"
+                android:text="El consentimiento en el ámbito sexual se puede expresar de distintas maneras. Como el consentimiento a actos sexuales, a afecto físico e incluso a fotos explicitas. "
+                android:textAlignment="viewStart"
+                android:textSize="30sp" />
+            <TextView
+                android:id="@+id/infoConsent3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30sp"
+                android:justificationMode="inter_word"
+                android:text="Por lo tanto se deben tomar varias cosas en cuenta al empezar un acto sexual. Dentro de estas se pueden encontrar: "
+                android:textAlignment="viewStart"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/infoConsent4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30sp"
+                android:text="- El consentimiento se puede retirar en cualquier momento"
+                android:textAlignment="viewStart"
+                android:textSize="30sp"/>
+            <TextView
+                android:id="@+id/infoConsent5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30sp"
+                android:text="- No se debe intentar convencer a obtener consentimiento sobre algo"
+                android:textAlignment="viewStart"
+                android:textSize="30sp"/>
+            <TextView
+                android:id="@+id/infoConsent6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30sp"
+                android:text="- Cuando alguien no esá lo suficientemente cuerdo o consciente para dar consentimiento no se puede aceptar el consentimiento dado"
+                android:textAlignment="viewStart"
+                android:textSize="30sp"/>
+            <TextView
+                android:id="@+id/infoConsent7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30sp"
+                android:text="- Aprovecharse de una situación para obtener consentimiento está prohibido"
+                android:textAlignment="viewStart"
+                android:textSize="30sp"/>
+            <TextView
+                android:id="@+id/infoConsent8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30sp"
+                android:text="- Y lo más importante de todo... Si una persona dice NO, significa NO"
+                android:textAlignment="viewStart"
+                android:textSize="30sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

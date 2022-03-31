@@ -15,7 +15,9 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:src="@tools:sample/avatars" />
+        app:srcCompat="@android:mipmap/sym_def_app_icon"
+        tools:src="@tools:sample/avatars"
+        tools:srcCompat="@android:mipmap/sym_def_app_icon" />
 
     <TextView
         android:id="@+id/textView2"
